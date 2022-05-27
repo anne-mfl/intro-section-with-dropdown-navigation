@@ -22,18 +22,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/screenshot1.png)
-![](./public/screenshot2.png)
-![](./public/screenshot3.png)
+![](./public/desktop1.png)
+![](./public/desktop2.png)
+![](./public/mobile1.png)
+![](./public/mobile2.png)
 
 ### Links
 
-- [Live site here](https://anne-mfl.github.io/time-tracking-dashboard)
+- [Live site here](https://anne-mfl.github.io/intro-section-with-dropdown-navigation)
 
 ## Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML
+- Tailwind CSS
 - Flexbox
 - CSS Grid
 - [React](https://reactjs.org/) - JS library

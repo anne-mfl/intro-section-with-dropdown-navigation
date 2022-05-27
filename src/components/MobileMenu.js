@@ -14,9 +14,13 @@ function MobileMenu({ mobileMenu }) {
   const [companyMenu, setCompanyMenu] = useState(false)
 
   return (
-    <div className={mobileMenu ? 'popup-box duration-500 ' : 'popup-closed duration-500'}>
-      <div className={mobileMenu ? 'box bg-white translate-x-0  duration-500' : 'box bg-white translate-x-full duration-500'}>
-        <ul className='pt-24 pl-8'>
+    <div className={mobileMenu
+      ? 'fixed bg-black/60 w-full h-screen top-0 left-0 z-20 duration-500 '
+      : 'fixed bg-transparent w-full h-screen top-0 left-0 -z-10 duration-500'}>
+      <div className={mobileMenu
+        ? 'relative w-7/12 h-screen ml-auto  bg-white translate-x-0  duration-500'
+        : 'relative w-7/12 h-screen ml-auto  bg-white translate-x-full duration-500'}>
+        <ul className='pt-16 pl-8'>
 
           <li
             className='mb-5 cursor-pointer'

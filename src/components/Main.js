@@ -11,7 +11,7 @@ function Main() {
 
   return (
     <div className='
-    lg:grid lg:grid-cols-2 lg:items-center lg:px-24 lg:pt-8 lg:pb-16 main-section'>
+    lg:grid lg:grid-cols-2 lg:items-center lg:px-24 lg:pt-8 main-section'>
 
       <section className='text-center lg:text-left lg:justify-self-center lg:w-10/12'>
 
