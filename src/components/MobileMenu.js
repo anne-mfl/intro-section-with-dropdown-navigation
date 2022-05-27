@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import downArrow from '../images/icon-arrow-down.svg'
 import calendar from '../images/icon-calendar.svg'
-import closeMenu from '../images/icon-close-menu.svg'
-import menu from '../images/icon-menu.svg'
 import planning from '../images/icon-planning.svg'
 import reminders from '../images/icon-reminders.svg'
 import todo from '../images/icon-todo.svg'
